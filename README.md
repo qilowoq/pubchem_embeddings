@@ -8,7 +8,7 @@ Then run `train_model.ipynb` to train the model.
 
 ## Data
 
-Downloads automatically from PubChem.
+Downloads automatically.
 
 ## Conformers
 
