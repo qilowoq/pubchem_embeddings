@@ -1,4 +1,4 @@
-This repo contains code for training the MXMNet and PAMNet models to predict result of biological assays from PCBA dataset. The models are trained on the 3D conformers of the molecules. Models also can be used to get molecular embeddings.
+This repo contains code for training PAMNet model to predict result of biological assays from PCBA dataset or from dataset in [this paper](https://www.nature.com/articles/s41467-023-37570-1). The model are trained on the 3D conformers of the molecules. Models also can be used to get molecular embeddings.
 
 ```bash
 pip install -r requirements.txt
@@ -8,24 +8,11 @@ Then run `train_model.ipynb` to train the model.
 
 ## Data
 
-Downloads automatically from PubChem.
+Downloads automatically.
 
 ## Conformers
 
 Generated using RDKit.
-
-## Models
-
-### MXMNet
-
-```
-@article{zhang2020molecular,
-  title={Molecular mechanics-driven graph neural network with multiplex graph for molecular structures},
-  author={Zhang, Shuo and Liu, Yang and Xie, Lei},
-  journal={arXiv preprint arXiv:2011.07457},
-  year={2020}
-}
-```
 
 ### PAMNet
 
